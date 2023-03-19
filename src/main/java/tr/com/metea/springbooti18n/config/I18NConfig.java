@@ -1,4 +1,4 @@
-package tr.com.metea.i18nbestpractice.config;
+package tr.com.metea.springbooti18n.config;
 
 /**
  * @author Mete Aydin
@@ -9,9 +9,10 @@ package tr.com.metea.i18nbestpractice.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ResourceBundleMessageSource;
+import org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver;
 
 @Configuration
-public class LocaleConfig {
+public class I18NConfig extends AcceptHeaderLocaleResolver {
 
     @Bean
     public ResourceBundleMessageSource messageSource() {

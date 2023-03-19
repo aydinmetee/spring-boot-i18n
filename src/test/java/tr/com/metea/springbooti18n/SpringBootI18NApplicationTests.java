@@ -1,4 +1,4 @@
-package tr.com.metea.i18nbestpractice;
+package tr.com.metea.springbooti18n;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,11 +1,11 @@
-package tr.com.metea.i18nbestpractice.controller;
+package tr.com.metea.springbooti18n.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import tr.com.metea.i18nbestpractice.util.MessageUtil;
+import tr.com.metea.springbooti18n.util.MessageUtil;
 
 /**
  * @author Mete Aydin
